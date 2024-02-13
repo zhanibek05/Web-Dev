@@ -1,19 +1,92 @@
 .header{
-    border: 5px solid black;
+    overflow-x: visible;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 
 .logo{
     width: 108px;
     padding-left: 80px;
-    border: 1px solid black;
+    position: relative;
+    top: 4px;
+    margin-right: 25px;
     
     
 }
-.link{
-    margin: 15px;
-    color: black;
+.header_links{
+    margin: 10px;
+    text-decoration: none;
+    color: #262626;
+    font-size:13px ;
     
 }
-.left_header{
-    border: 1px solid black;
+.header_links:hover{
+    border-bottom: 2px solid #262626;
+    margin-top: 2px;
 }
+
+.right_header{
+    position: relative;
+    left: 550px;
+    padding: 60px;
+}
+
+.fbb{
+    margin-top: 17px;
+    margin-bottom: 100px;
+  
+}
+
+.fbb_text{
+    position: absolute;
+    top: 140px;
+    left: 140px;
+    width: 440px;
+    color: white;
+    font-size: 22px;
+    font-weight: normal;
+    
+}
+
+#fbb_button{
+    position: absolute;
+    top: 400px;
+    left: 150px;
+    background-color: #0067b8;
+    width: 280px;
+    height: 40px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+}
+#fbb_button:hover{
+    background-color: blue;
+}
+
+.foot_blocks{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.block{
+    width: 320px;
+    height: 400px;
+   
+    margin: 12px;
+}
+
+.bl_img{
+    width: 320px;
+}
+
+.b_links{
+    text-decoration: none;
+    color: #0067b8;
+}
+
+
